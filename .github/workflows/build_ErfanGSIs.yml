@@ -5,8 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://s557sas.storage.yandex.net/rdisk/ee56e0b1ec132efd68887e1006525d6d2bbb7648f7631bbb1b00dc9277b9ef3a/60303b5c/Av7yVleztnw7sFG-Vu0QQ5ZyHDx62sjvZoRn1LtAHrWsYUXULB0B1gFMt-dtZb2ZYe9hTt4r96I1RUWbuJxaKg==?uid=0&filename=MIUITR_REDMINOTE4-4X_MIDO_M12.5-A10_21.2.15.zip&disposition=attachment&hash=25iBdyP3ftOo0TOe5erzD2%2BAwcIYlD4kXWWAh51VyzYWPHL798AY08cV66Nu0Dhtq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1654431902&hid=2d4902706027753eb1ea9fe1712e4c88&media_type=compressed&tknv=v2&rtoken=Vd6ztKibPSS9&force_default=no&ycrid=na-a5e1477c59250bad62a51f9c585f963c-downloader17h&ts=5bbb7f5c08f00&s=bb8b33983e3df052cfa0c5e557d81c1dcbd676dd9e6dfd076c170d0080db4b0a&pb=U2FsdGVkX1_B6OIWVAfgS5mCwcPZa2eTrEFmudAGlY9ic_7dtLWh4C-y3yX9M9GrNH3XorRUWL7k2IlHOB7a4Dic1UDHgNEVMeKTlaqPIoE
-  ROM_NAME: MIUI
+  ROM_URL: https://ava1.androidfilehost.com/dl/m2UC0eJiK5nwaA_AbUmg2g/1613864805/17248734326145732059/MMX_2.2.0_lavender_V12.0.3.0.QFGCNXM_v12-10.zip?
   TZ: Asia/Kolkata
   MIR: wet
   ZIP_NAME: mıuımx12.5
