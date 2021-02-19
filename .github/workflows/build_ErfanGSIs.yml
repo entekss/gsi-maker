@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ava1.androidfilehost.com/dl/m2UC0eJiK5nwaA_AbUmg2g/1613864805/17248734326145732059/MMX_2.2.0_lavender_V12.0.3.0.QFGCNXM_v12-10.zip?
+  ROM_URL: https://ava1.androidfilehost.com/dl/m2UC0eJiK5nwaA_AbUmg2g/1613864805/17248734326145732059/MMX_2.2.0_lavender_V12.0.3.0.QFGCNXM_v12-10.zip
   TZ: Asia/Kolkata
   MIR: wet
   ZIP_NAME: mıuımx12.5
