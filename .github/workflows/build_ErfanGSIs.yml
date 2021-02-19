@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.5.0.QCRTRXM/miui_ANGELICATRGlobal_V12.0.5.0.QCRTRXM_43a75013ee_10.0.zip
+  ROM_URL: https://s557sas.storage.yandex.net/rdisk/682175a5187fb28c8dd64f7e28a0f988016d36238130ecccbd2e12e1fc336aa2/60300e02/Av7yVleztnw7sFG-Vu0QQ5ZyHDx62sjvZoRn1LtAHrWsYUXULB0B1gFMt-dtZb2ZYe9hTt4r96I1RUWbuJxaKg==?uid=0&filename=MIUITR_REDMINOTE4-4X_MIDO_M12.5-A10_21.2.15.zip&disposition=attachment&hash=25iBdyP3ftOo0TOe5erzD2%2BAwcIYlD4kXWWAh51VyzYWPHL798AY08cV66Nu0Dhtq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1654431902&hid=2d4902706027753eb1ea9fe1712e4c88&media_type=compressed&tknv=v2&rtoken=0UbB7lkZ28N2&force_default=no&ycrid=na-7e2a072eed028714199a1518abda42fe-downloader3h&ts=5bbb541be0480&s=c21355e1a46c72a0fdeec629d03cead1f0322c9f73c651f403210a7d41fb8a50&pb=U2FsdGVkX18fd7xlm4EhhSz1Wex-QMKo1QRbbAAyIWv4oWM_Hco4BMvheMIKJ2a26tv3hPVaPFV_xGgUVqex4rffVJohQJ36T_xFdjWx2NM
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
