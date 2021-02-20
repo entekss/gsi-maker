@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://doc-00-4c-docs.googleusercontent.com/docs/securesc/iboitj2hpblb96ri4vraok31c2ovgkfe/gkd5rlg7mnomro99onu88lrmipdqppks/1613780925000/09429945262646346739/12463936899778122419/1vW7K-gGpygQy5Ky_smee_crZnhyQa9C-?e=download&authuser=0&nonce=ip6lama9bpv3i&user=12463936899778122419&hash=74v42sehu5reoh7641rla9vblmpqa5v8
+  ROM_URL: https://doc-00-4c-docs.googleusercontent.com/docs/securesc/iboitj2hpblb96ri4vraok31c2ovgkfe/rh0m6drk29284n710oet0octtp75e1j4/1613824950000/09429945262646346739/12463936899778122419/1vW7K-gGpygQy5Ky_smee_crZnhyQa9C-?e=download&authuser=0&nonce=4rhdmd2l5qeai&user=12463936899778122419&hash=seje3vnpc0lbut069fecfe09454elftu
   TZ: Asia/Kolkata
   MIR: wet
   ZIP_NAME: miui10
