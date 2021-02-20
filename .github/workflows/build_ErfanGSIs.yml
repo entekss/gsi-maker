@@ -5,10 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://doc-00-4c-docs.googleusercontent.com/docs/securesc/iboitj2hpblb96ri4vraok31c2ovgkfe/rh0m6drk29284n710oet0octtp75e1j4/1613824950000/09429945262646346739/12463936899778122419/1vW7K-gGpygQy5Ky_smee_crZnhyQa9C-?e=download&authuser=0&nonce=4rhdmd2l5qeai&user=12463936899778122419&hash=seje3vnpc0lbut069fecfe09454elftu
+  ROM_URL: https://hell.godseye.workers.dev/MMX_Whyred_21.1.6_whyred_Shubh_21.1.6_10.zip
+  ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: miui10
+  ZIP_NAME: mıuımx12.5
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,10 +23,9 @@ jobs:
          run: |
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
-
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/entekss/ErfanGSIs-VelanGSIs.git
+         run: git clone --recurse-submodules https://github.com/berkays0733/ErfanGSIs.git  ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
@@ -51,4 +51,3 @@ jobs:
          run: |
               cat ErfanGSIs/output/*-Aonly-*.txt
          
-            
