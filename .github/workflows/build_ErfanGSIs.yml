@@ -5,7 +5,54 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://kamiui.ml/redmi4x/Redmi%20Note%204%20resources/MIUI12/MIUICX_mido_20.11.18.zip
+  ROM_URL: https://s557man.storage.yandex.net/rdisk/a88c6ee67b8209bde7126c0402e648e616888979cd37e720afe9add9d5ac0572/6031d02d/Av7yVleztnw7sFG-Vu0QQ2pNYWIe_5iih8y19k8y1Ocj_xCGGJegi-4cnUXFQXtV4r5FnIE_veAJFglqIn_9Tw==?uid=0&filename=MIUITR_12.0.2.0_MI5_GEMINI_M12-A10.zip&disposition=attachment&hash=uaUvaivyAth30vpK6zJhX7houJlDhKjoaDOsErYG/n7ZbCxsE9U4dJoLcixJ2fNLq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1657508880&hid=2d7e75f31a530662aa8bb896cb49af6a&media_type=compressed&tknv=v2&rtoken=jMrfBtnvoTKk&force_default=no&ycrid=na-73628691e986ca6db370d03456355992-downloader11e&ts=5bbd016c2a540&s=90b0a47237ef4085ede2d98ccca11e256eb0e45a575d043182d8dcdb47c318fb&pb=U2FsdGVkX1_x-p4PAXANrNrEtseVMJurMvaWbjM2djKN2N7CkXUWNGxJflg3BKuxPi1SVdK-8dHj6Dwsn7KgLjksiwrggrbgCMDl62VV-ZQ
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
+  TZ: Asia/Kolkata
+  MIR: bit
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+       - name: Checkout
+         uses: actions/checkout@master
+           
+       - name: Initializing environment
+         run: |
+            sudo -E apt-get -qq update
+            sudo -E apt-get -qq install git openjdk-8-jdk wget
+       
+       - name: Clone ErfanGSI Source Code
+         run: git clone --recurse-submodules https://github.com/JamieHoSzeYui/ErfanGSIs
+       
+       - name: Setting up ErfanGSI requirements
+         run: |
+              sudo chmod -R 777 ErfanGSIs
+              cd ErfanGSIs
+              sudo bash setup.sh
+       
+       - name: Download Stock Rom & Generate GSI
+         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
+       
+       - name: Zip Aonly and upload 
+         run: |
+              mkdir final
+              sudo chmod -R 777 ErfanGSIs/output
+              zip -r ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer $MIR ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z          
+       - name: Zip AB and upload 
+         run: |
+              zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
+              ./transfer $MIR ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z      
+       - name: Print build info
+         run: |
+              cat ErfanGSIs/output/*-Aonly-*.txt
+         
+            
+
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
