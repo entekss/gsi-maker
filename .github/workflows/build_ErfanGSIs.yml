@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hell.godseye.workers.dev/MMX_Whyred_21.1.6_whyred_Shubh_21.1.6_10.zip
+  ROM_URL: https://fhjdajkdn-my.sharepoint.com/personal/akib_fhjdajkdn_onmicrosoft_com/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fakib%5Ffhjdajkdn%5Fonmicrosoft%5Fcom%2FDocuments%2FROM%2FRazer%5F21%2E2%2E3%5Fmido%2Ezip
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
