@@ -6,7 +6,7 @@ on:
     
 env:
   ROM_URL: https://s287man.storage.yandex.net/rdisk/06d31c92f7af7492b48209d70063ebbc2049ddb2106dcef1c9425024553dbbbe/6032eec8/Av7yVleztnw7sFG-Vu0QQ6x3v294VCD6E1Jb8apTeXoaGApB3_miVvdUX84QXQgZBsHGXnPKew-mJXwW3wR0gA==?uid=0&filename=MIUITR_MIA2_JASMINE_M12.5-A10_21.2.21.zip&disposition=attachment&hash=SFB4cSPewfBaDFizIdEKqneDDhiXahjYDri3JdO6NqTXyWZ0f3eHZnWP1d1vU/M%2Bq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1848308141&hid=3c17cc51c8234803356f6d9d4d9d55f7&media_type=compressed&tknv=v2&rtoken=9b7NoxW9E5BV&force_default=no&ycrid=na-e21ebceb376d56a2adc5eeeb181eff59-downloader23e&ts=5bbe12c034200&s=becb3f5a5845421f1572866de0aec9ab28095daf17ab95fc24cc7de0350f35b1&pb=U2FsdGVkX1_LaZtSOi3W1_frM_db-bItesOEeLjEpTt0wbAUgfPOdyjT6aOnBup9aXQVCmR7Y5ahw9M9zWpPh-sVb1mLAPWoYX1CfVA7lec
-  ZIP_NAME: MiuiTRA2
+  ZIP_NAME: MiuiTR
   TZ: Asia/Kolkata
   MIR: bit
 jobs:
