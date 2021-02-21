@@ -5,8 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://s557man.storage.yandex.net/rdisk/a88c6ee67b8209bde7126c0402e648e616888979cd37e720afe9add9d5ac0572/6031d02d/Av7yVleztnw7sFG-Vu0QQ2pNYWIe_5iih8y19k8y1Ocj_xCGGJegi-4cnUXFQXtV4r5FnIE_veAJFglqIn_9Tw==?uid=0&filename=MIUITR_12.0.2.0_MI5_GEMINI_M12-A10.zip&disposition=attachment&hash=uaUvaivyAth30vpK6zJhX7houJlDhKjoaDOsErYG/n7ZbCxsE9U4dJoLcixJ2fNLq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1657508880&hid=2d7e75f31a530662aa8bb896cb49af6a&media_type=compressed&tknv=v2&rtoken=jMrfBtnvoTKk&force_default=no&ycrid=na-73628691e986ca6db370d03456355992-downloader11e&ts=5bbd016c2a540&s=90b0a47237ef4085ede2d98ccca11e256eb0e45a575d043182d8dcdb47c318fb&pb=U2FsdGVkX1_x-p4PAXANrNrEtseVMJurMvaWbjM2djKN2N7CkXUWNGxJflg3BKuxPi1SVdK-8dHj6Dwsn7KgLjksiwrggrbgCMDl62VV-ZQ
-  ROM_NAME: Pixel
+  ROM_URL: https://s287man.storage.yandex.net/rdisk/06d31c92f7af7492b48209d70063ebbc2049ddb2106dcef1c9425024553dbbbe/6032eec8/Av7yVleztnw7sFG-Vu0QQ6x3v294VCD6E1Jb8apTeXoaGApB3_miVvdUX84QXQgZBsHGXnPKew-mJXwW3wR0gA==?uid=0&filename=MIUITR_MIA2_JASMINE_M12.5-A10_21.2.21.zip&disposition=attachment&hash=SFB4cSPewfBaDFizIdEKqneDDhiXahjYDri3JdO6NqTXyWZ0f3eHZnWP1d1vU/M%2Bq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1848308141&hid=3c17cc51c8234803356f6d9d4d9d55f7&media_type=compressed&tknv=v2&rtoken=9b7NoxW9E5BV&force_default=no&ycrid=na-e21ebceb376d56a2adc5eeeb181eff59-downloader23e&ts=5bbe12c034200&s=becb3f5a5845421f1572866de0aec9ab28095daf17ab95fc24cc7de0350f35b1&pb=U2FsdGVkX1_LaZtSOi3W1_frM_db-bItesOEeLjEpTt0wbAUgfPOdyjT6aOnBup9aXQVCmR7Y5ahw9M9zWpPh-sVb1mLAPWoYX1CfVA7lec
   ZIP_NAME: Pixel
   TZ: Asia/Kolkata
   MIR: bit
